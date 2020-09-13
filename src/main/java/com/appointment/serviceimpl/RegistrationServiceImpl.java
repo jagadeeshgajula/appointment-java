@@ -48,4 +48,10 @@ public Registration findUserByUId(Integer id) {
 	return repo.findById(id).get();
 }
 
+@Override
+public Registration findByUserName(String userName) {
+	
+	return repo.findByUserName(userName);
+}
+
 }

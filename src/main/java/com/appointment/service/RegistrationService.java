@@ -11,4 +11,6 @@ public interface RegistrationService {
 	public Registration findUserByUId(Integer id);
 	
 	public Registration findByUserNameAndPassword( String userName, String password);
+
+	public Registration findByUserName(String username);
 }
